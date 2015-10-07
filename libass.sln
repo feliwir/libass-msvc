@@ -14,7 +14,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fribidi", "fribidi-0.19.7\f
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "freetype-2.6.1\freetype.vcxproj", "{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harfbuzz", "harfbuzz-1.0.4\harfbuzz-1.0.4.vcxproj", "{B147D2D8-F7C3-4788-A53F-4D065AAF3716}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harfbuzz", "harfbuzz-1.0.4\harfbuzz.vcxproj", "{B147D2D8-F7C3-4788-A53F-4D065AAF3716}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6} = {E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}
 	EndProjectSection
