@@ -69,21 +69,21 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(ProjectDir)/win32;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
     <TargetExt>.lib</TargetExt>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(ProjectDir)/win32;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
     <TargetExt>.lib</TargetExt>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(ProjectDir)/win32;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(ProjectDir)/win32;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(IncludePath)</IncludePath>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
