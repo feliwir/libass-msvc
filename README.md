@@ -5,6 +5,9 @@ The library versions you need are the following:
 - freetype-2.6.1
 - libass-0.13.0
 
+Afterwards install vsyasm from here:
+http://yasm.tortall.net/Download.html
+
 Now open libass.sln and you should be able to compile all 3 projects.
 
 
