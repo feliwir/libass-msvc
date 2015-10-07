@@ -6,6 +6,8 @@ The library versions you need are the following:
 - libass-0.13.0
 - harfbuzz-1.0.4
 
+Make sure yasm.exe is in your path for asm optimizations.
+
 Now open libass.sln and you should be able to compile all 3 projects.
 
 
