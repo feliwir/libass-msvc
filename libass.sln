@@ -3,17 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libass", "libass.vcxproj", "{C1D41FF9-77E0-4AC4-A4FD-7D7CDCCC17F7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libass", "libass-0.13.0\libass.vcxproj", "{C1D41FF9-77E0-4AC4-A4FD-7D7CDCCC17F7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FCDCE6B6-081E-4EC2-8A1B-851F598523B1} = {FCDCE6B6-081E-4EC2-8A1B-851F598523B1}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fribidi-0.19.7", "fribidi-0.19.7\fribidi-0.19.7.vcxproj", "{FCDCE6B6-081E-4EC2-8A1B-851F598523B1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{CB7FABD1-1F86-4B1C-BC1B-EB0C78785092}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C1D41FF9-77E0-4AC4-A4FD-7D7CDCCC17F7} = {C1D41FF9-77E0-4AC4-A4FD-7D7CDCCC17F7}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fribidi", "fribidi-0.19.7\fribidi.vcxproj", "{FCDCE6B6-081E-4EC2-8A1B-851F598523B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
