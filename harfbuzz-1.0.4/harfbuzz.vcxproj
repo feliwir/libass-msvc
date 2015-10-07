@@ -18,10 +18,97 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hb-atomic-private.hh" />
+    <ClInclude Include="src\hb-buffer-deserialize-json.hh" />
+    <ClInclude Include="src\hb-buffer-deserialize-text.hh" />
+    <ClInclude Include="src\hb-buffer-private.hh" />
+    <ClInclude Include="src\hb-face-private.hh" />
+    <ClInclude Include="src\hb-font-private.hh" />
+    <ClInclude Include="src\hb-ft.h" />
+    <ClInclude Include="src\hb-mutex-private.hh" />
+    <ClInclude Include="src\hb-object-private.hh" />
+    <ClInclude Include="src\hb-open-file-private.hh" />
+    <ClInclude Include="src\hb-open-type-private.hh" />
+    <ClInclude Include="src\hb-ot-cmap-table.hh" />
+    <ClInclude Include="src\hb-ot-glyf-table.hh" />
+    <ClInclude Include="src\hb-ot-head-table.hh" />
+    <ClInclude Include="src\hb-ot-hhea-table.hh" />
+    <ClInclude Include="src\hb-ot-hmtx-table.hh" />
+    <ClInclude Include="src\hb-ot-layout-common-private.hh" />
+    <ClInclude Include="src\hb-ot-layout-gdef-table.hh" />
+    <ClInclude Include="src\hb-ot-layout-gpos-table.hh" />
+    <ClInclude Include="src\hb-ot-layout-gsub-table.hh" />
+    <ClInclude Include="src\hb-ot-layout-gsubgpos-private.hh" />
+    <ClInclude Include="src\hb-ot-layout-jstf-table.hh" />
+    <ClInclude Include="src\hb-ot-layout-private.hh" />
+    <ClInclude Include="src\hb-ot-map-private.hh" />
+    <ClInclude Include="src\hb-ot-maxp-table.hh" />
+    <ClInclude Include="src\hb-ot-name-table.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-arabic-fallback.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-arabic-private.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-arabic-table.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-arabic-win1256.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-indic-machine.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-indic-private.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-myanmar-machine.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-private.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-use-machine.hh" />
+    <ClInclude Include="src\hb-ot-shape-complex-use-private.hh" />
+    <ClInclude Include="src\hb-ot-shape-fallback-private.hh" />
+    <ClInclude Include="src\hb-ot-shape-normalize-private.hh" />
+    <ClInclude Include="src\hb-ot-shape-private.hh" />
+    <ClInclude Include="src\hb-private.hh" />
+    <ClInclude Include="src\hb-set-private.hh" />
+    <ClInclude Include="src\hb-shape-plan-private.hh" />
+    <ClInclude Include="src\hb-shaper-impl-private.hh" />
+    <ClInclude Include="src\hb-shaper-list.hh" />
+    <ClInclude Include="src\hb-unicode-private.hh" />
+    <ClInclude Include="src\hb-utf-private.hh" />
+    <ClInclude Include="src\ucdn.h" />
+    <ClInclude Include="src\unicodedata_db.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\hb-blob.cc" />
+    <ClCompile Include="src\hb-buffer-serialize.cc" />
+    <ClCompile Include="src\hb-buffer.cc" />
+    <ClCompile Include="src\hb-common.cc" />
+    <ClCompile Include="src\hb-face.cc" />
+    <ClCompile Include="src\hb-fallback-shape.cc" />
+    <ClCompile Include="src\hb-font.cc" />
+    <ClCompile Include="src\hb-ft.cc" />
+    <ClCompile Include="src\hb-ot-font.cc" />
+    <ClCompile Include="src\hb-ot-layout.cc" />
+    <ClCompile Include="src\hb-ot-map.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-arabic.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-default.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-hangul.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-hebrew.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-indic-table.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-indic.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-myanmar.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-thai.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-tibetan.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-use-table.cc" />
+    <ClCompile Include="src\hb-ot-shape-complex-use.cc" />
+    <ClCompile Include="src\hb-ot-shape-fallback.cc" />
+    <ClCompile Include="src\hb-ot-shape-normalize.cc" />
+    <ClCompile Include="src\hb-ot-shape.cc" />
+    <ClCompile Include="src\hb-ot-tag.cc" />
+    <ClCompile Include="src\hb-set.cc" />
+    <ClCompile Include="src\hb-shape-plan.cc" />
+    <ClCompile Include="src\hb-shape.cc" />
+    <ClCompile Include="src\hb-shaper.cc" />
+    <ClCompile Include="src\hb-ucdn.cc" />
+    <ClCompile Include="src\hb-unicode.cc" />
+    <ClCompile Include="src\hb-warning.cc" />
+    <ClCompile Include="src\ucdn.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C1D41FF9-77E0-4AC4-A4FD-7D7CDCCC17F7}</ProjectGuid>
-    <RootNamespace>libass</RootNamespace>
+    <ProjectGuid>{B147D2D8-F7C3-4788-A53F-4D065AAF3716}</ProjectGuid>
+    <RootNamespace>harfbuzz104</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>harfbuzz</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -52,7 +139,6 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\vsyasm.props" />
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
@@ -70,21 +156,21 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)/harfbuzz-1.0.4/src;$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
-    <TargetExt>.lib</TargetExt>
+    <IncludePath>$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(SolutionDir)/harfbuzz-1.0.4/src;$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
-    <TargetExt>.lib</TargetExt>
+    <IncludePath>$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)/harfbuzz-1.0.4/src;$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(SolutionDir)/harfbuzz-1.0.4/src;$(SolutionDir)/compat;$(SolutionDir)/fribidi-0.19.7/lib;$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)/freetype-2.6.1/include;$(IncludePath)</IncludePath>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -92,6 +178,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_OT;HAVE_UCDN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -102,6 +189,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_OT;HAVE_UCDN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -114,6 +202,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_OT;HAVE_UCDN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -128,6 +217,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_OT;HAVE_UCDN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,30 +225,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="libass\ass.c" />
-    <ClCompile Include="libass\ass_bitmap.c" />
-    <ClCompile Include="libass\ass_blur.c" />
-    <ClCompile Include="libass\ass_cache.c" />
-    <ClCompile Include="libass\ass_directwrite.c" />
-    <ClCompile Include="libass\ass_drawing.c" />
-    <ClCompile Include="libass\ass_font.c" />
-    <ClCompile Include="libass\ass_fontconfig.c" />
-    <ClCompile Include="libass\ass_fontselect.c" />
-    <ClCompile Include="libass\ass_library.c" />
-    <ClCompile Include="libass\ass_parse.c" />
-    <ClCompile Include="libass\ass_rasterizer.c" />
-    <ClCompile Include="libass\ass_rasterizer_c.c" />
-    <ClCompile Include="libass\ass_render.c" />
-    <ClCompile Include="libass\ass_render_api.c" />
-    <ClCompile Include="libass\ass_shaper.c" />
-    <ClCompile Include="libass\ass_string.c" />
-    <ClCompile Include="libass\ass_strtod.c" />
-    <ClCompile Include="libass\ass_utils.c" />
-    <ClCompile Include="..\compat\dirent.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\vsyasm.targets" />
   </ImportGroup>
 </Project>

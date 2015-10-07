@@ -5,12 +5,19 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libass", "libass-0.13.0\libass.vcxproj", "{C1D41FF9-77E0-4AC4-A4FD-7D7CDCCC17F7}"
 	ProjectSection(ProjectDependencies) = postProject
+		{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6} = {E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}
 		{FCDCE6B6-081E-4EC2-8A1B-851F598523B1} = {FCDCE6B6-081E-4EC2-8A1B-851F598523B1}
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716} = {B147D2D8-F7C3-4788-A53F-4D065AAF3716}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fribidi", "fribidi-0.19.7\fribidi.vcxproj", "{FCDCE6B6-081E-4EC2-8A1B-851F598523B1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "freetype-2.6.1\freetype.vcxproj", "{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harfbuzz", "harfbuzz-1.0.4\harfbuzz-1.0.4.vcxproj", "{B147D2D8-F7C3-4788-A53F-4D065AAF3716}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6} = {E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +51,14 @@ Global
 		{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}.Release|x64.Build.0 = Release|x64
 		{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}.Release|x86.ActiveCfg = Release|Win32
 		{E14AA308-6346-40C3-8FD1-AB21EC7F6EB6}.Release|x86.Build.0 = Release|Win32
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Debug|x64.ActiveCfg = Debug|x64
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Debug|x64.Build.0 = Debug|x64
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Debug|x86.ActiveCfg = Debug|Win32
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Debug|x86.Build.0 = Debug|Win32
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Release|x64.ActiveCfg = Release|x64
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Release|x64.Build.0 = Release|x64
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Release|x86.ActiveCfg = Release|Win32
+		{B147D2D8-F7C3-4788-A53F-4D065AAF3716}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
