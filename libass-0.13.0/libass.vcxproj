@@ -66,18 +66,12 @@
     <Yasm Include="libass\x86\be_blur.asm">
       <ExcludeFromBuild Condition="'$(Platform)'!='x64'">true</ExcludeFromBuild>
     </Yasm>
-    <Yasm Include="libass\x86\blend_bitmaps.asm">
-      <ExcludeFromBuild Condition="'$(Platform)'!='x64'">true</ExcludeFromBuild>
-    </Yasm>
     <Yasm Include="libass\x86\cpuid.asm" />
     <Yasm Include="libass\x86\rasterizer.asm" />
-    <None Include="libass\x86\be_blur.asm" />
-    <None Include="libass\x86\blend_bitmaps.asm" />
-    <None Include="libass\x86\blur.asm" />
-    <None Include="libass\x86\cpuid.asm" />
-    <None Include="libass\x86\rasterizer.asm" />
-    <None Include="libass\x86\utils.asm" />
-    <None Include="libass\x86\x86inc.asm" />
+    <Yasm Include="libass\x86\blend_bitmaps.asm" />
+    <Yasm Include="libass\x86\blur.asm" />
+    <Yasm Include="libass\x86\utils.asm" />
+    <Yasm Include="libass\x86\x86inc.asm" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="libass\ass.c" />
